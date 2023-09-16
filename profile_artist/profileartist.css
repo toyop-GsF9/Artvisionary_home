@@ -1,0 +1,240 @@
+.profileartist {
+  position: relative;
+  width: 100%;
+  height: 1440px;
+  overflow: hidden;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.profileartist-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 1440px;
+}
+.explanation {
+  font-size:x-large;
+  margin: 0;
+  line-height: 40px;
+}
+.blank-line {
+  margin: 0;
+}
+.nft {
+  position: absolute;
+  top: 152px;
+  left: 224px;
+  display: inline-block;
+  width: 970px;
+  height: 362px;
+  font-size: 20px;
+}
+.painting {
+  position: absolute;
+  top: 160px;
+  left: 1010px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.member {
+  position: absolute;
+    top: 0px;
+    left:360px;
+  font-weight: 500;
+}
+.group-inner,
+.group-item,
+.member-parent {
+  position: absolute;
+  top: 24px;
+  left: -100px;
+  width: 350px;
+  height: 1px;
+}
+.group-inner,
+.member-parent {
+  left: 646px;
+}
+.member-parent {
+  text-align: center;
+  height: 3.33%;
+  width: 69.2%;
+  top: 35.28%;
+  right: 15.21%;
+  bottom: 61.39%;
+  left: 15.59%;
+  font-size: var(--font-size-13xl);
+}
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 202px;
+  height: 202px;
+}
+.select-image-file {
+  margin: 0;
+}
+.select-image-file-container {
+  position: absolute;
+  top: 35px;
+  left: 45px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.group-icon1 {
+  position: absolute;
+  height: 22%;
+  width: 30%;
+  top: 50%;
+  right: 35%;
+  bottom: 28%;
+  left: 35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipse-group {
+  position: relative;
+  top: 616px;
+  left: 223px;
+  width: 203px;
+  height: 203px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-black);
+}
+.name {
+  position: absolute;
+  top: 591px;
+  left: 458px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.shape-with-text3 {
+  position: relative;
+  top:480px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 758px;
+  height: 48px;
+  top: 410px;
+  left: 456px;
+}
+.profile {
+  position: relative;
+  top: 673px;
+  left: 458px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.shape-with-text4 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 758px;
+  height: 140px;
+  top: 408px;
+  left: 456px;
+}
+.profile{
+  position: relative;
+  top: 410px;
+  left: 456px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.pr {
+  position: relative;
+  top: 406px;
+  left: 220px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.shape-with-text5 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 997px;
+  height: 360px;
+  left: 220px;
+  top: 404px;
+}
+.div9 {
+  position: relative;
+  top: 410px;
+  left: 220px;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  width: 497px;
+  height: 48px;
+  color: white
+}
+.submit{
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: #666;
+  width: 997px;
+  height: 58px;
+  top: 420px;
+  left: 220px
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 1.46px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 115.54px;
+  height: 21px;
+}
+.div11 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  width: 115px;
+  height: 14px;
+}
+.div12{
+  position: absolute;
+  top: 10px;
+  left: 420px;
+  font-size: 20px;
+  color:white
+
+}
+.rectangle-parent {
+  position: absolute;
+  top: 1288px;
+  left: 1055px;
+  width: 117px;
+  height: 21px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: white;
+}
+
