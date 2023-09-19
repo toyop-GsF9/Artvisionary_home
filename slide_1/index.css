@@ -1,0 +1,154 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.square {
+  position: relative;
+  width: 100%;
+  height: 930px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #666;
+  background-color: #fff;
+}
+
+.square-child,
+.square-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 930px;
+  background-color: #000;
+}
+
+.square-item {
+  top: 144px;
+  left: 399px;
+  background-color: #1a1a1a;
+  width: 642px;
+  height: 642px;
+}
+
+.unsplash,
+.mask-group-icon,
+.ethereum-1-icon,
+.icon {
+  position: absolute;
+  object-fit: cover;
+}
+
+.unsplash {
+  top: 164px;
+  left: 421px;
+  width: 598px;
+  height: 598px;
+}
+
+.square-inner {
+  position: absolute;
+  top: 426px;
+  left: 1159px;
+  width: 179px;
+  height: 360px;
+  border-radius: 20px;
+  border: 1px solid #666;
+  box-sizing: border-box;
+}
+
+.mask-group-icon {
+  top: 444px;
+  left: 1181px;
+  width: 36px;
+  height: 36px;
+}
+
+.artist,
+.point,
+.tag {
+  position: absolute;
+  left: 1181px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.artist {
+  top: 484px;
+  width: 138px;
+  height: 26px;
+}
+
+.artist1 {
+  text-decoration: underline;
+}
+
+.point {
+  top: 516px;
+  width: 138px;
+  height: 26px;
+}
+
+.point-line {
+  position: absolute;
+  left: 1181px;
+  top: 542px;
+  width: 138px;
+  border: 0.5px solid #666;
+}
+.point-line2 {
+  position: absolute;
+    left: 1181px;
+    top: 612px;
+    width: 138px;
+    border: 0.5px solid #666;
+
+}
+
+.tag {
+  font-weight: 600;
+  display: inline-block;
+  width: 139px;
+  height: 68px;
+  top: 560px;
+}
+
+.ethereum-1-icon {
+  top: 634px;
+  left: 1198px;
+  border-radius: 12px;
+  width: 12px;
+  height: 18px;
+}
+
+.eth {
+  position: absolute;
+  top: 624px;
+  left: 1217px;
+  font-weight: 600;
+  width: 69px;
+  height: 37px;
+  line-height: 36px;
+}
+
+.buy {
+  position: absolute;
+  top: 664px;
+  left: 1218px;
+  color: #fff;
+  font-weight: 600;
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  border: none;
+  background-color: #666;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon {
+  top: 703px;
+  left: 1218px;
+  width: 62px;
+  height: 62px;
+}
