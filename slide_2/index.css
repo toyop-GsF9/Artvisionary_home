@@ -1,34 +1,58 @@
-.desktop-18-child,
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.vertical {
+  position: relative;
+    width: 100%;
+    height: 930px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+    background-color: #fff;
+  }
+
+.vertical-child,
 .group-child {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #000;
   width: 1440px;
   height: 930px;
+  background-color: #000;
 }
+
 .group-child {
   background-color: #1a1a1a;
   width: 530px;
   height: 770px;
 }
-.unsplashlsgkg9ejpji-icon {
+.unsplash,
+.mask-group-icon,
+.ethereum-1-icon,
+.icon {
   position: absolute;
+  object-fit: cover;
+}
+
+.unsplash {
   top: 25px;
   left: 25px;
   width: 480px;
   height: 720px;
-  object-fit: cover;
 }
-.desktop-18-item,
-.rectangle-parent {
+
+.rectangle-parent,
+.vertical-item {
   position: absolute;
   top: 80px;
   left: 455px;
   width: 530px;
   height: 770px;
 }
-.desktop-18-item {
+
+.vertical-item {
   top: 490px;
   left: 1115px;
   border-radius: 20px;
@@ -37,58 +61,97 @@
   width: 179px;
   height: 360px;
 }
-.mask-group-icon {
+
+.artist,
+.blue,
+.tag {
   position: absolute;
-  top: 507px;
   left: 1136px;
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
+  font-weight: 600;
+  display: inline-block;
 }
-.f {
+
+.artist {
   top: 543px;
   text-decoration: underline;
   line-height: 36px;
   width: 118px;
 }
-.blue,
-.f,
-.xray-flower-photo {
-  position: absolute;
-  left: 1136px;
-  font-weight: 600;
-  display: inline-block;
-}
+
 .blue {
   top: 577px;
   line-height: 36px;
   width: 118px;
 }
-.xray-flower-photo {
+.tag-line {
+  position: absolute;
+  left: 1134px;
+  top: 610px;
+  width: 138px;
+  border: 0.5px solid #666;
+}
+
+.tag-line2 {
+  position: absolute;
+  left: 1134px;
+  top: 680px;
+  width: 138px;
+  border: 0.5px solid #666;
+}
+
+.tag {
+  font-weight: 600;
+  display: inline-block;
   top: 622px;
   width: 139px;
   height: 68px;
 }
-.ethereum-1-icon {
+
+.eth {
   position: absolute;
+  top: 688px;
+  left: 1173px;
+  font-weight: 600;
+  width: 69px;
+  height: 37px;
+  line-height: 36px;
+}
+
+.buy {
+  position: absolute;
+  top: 722px;
+  left: 1180px;
+  color: #fff;
+  font-weight: 600;
+  width: 47px;
+  height: 27px;
+  line-height: 36px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.buy:hover {
+  opacity: 0.8;
+}
+
+.mask-group-icon {
+  top: 507px;
+  left: 1136px;
+  width: 36px;
+  height: 36px;
+}
+
+.ethereum-1-icon {
   top: 698px;
   left: 1154px;
   border-radius: 12px;
   width: 12px;
   height: 18px;
-  object-fit: cover;
 }
-.eth {
-  position: absolute;
-  top: 688px;
-  left: 1173px;
-  line-height: 36px;
-  font-weight: 600;
-  display: inline-block;
-  width: 69px;
-  height: 37px;
-}
-.desktop-18-inner {
+
+.rectangle {
   position: absolute;
   top: 725px;
   left: 1172px;
@@ -97,35 +160,10 @@
   width: 63px;
   height: 29px;
 }
-.buy,
-.icon {
-  position: absolute;
-}
-.buy {
-  top: 720px;
-  left: 1188px;
-  line-height: 36px;
-  font-weight: 600;
-  color: var(--color-white);
-  display: inline-block;
-  width: 47px;
-  height: 27px;
-}
+
 .icon {
   top: 767px;
   left: 1174px;
   width: 62px;
   height: 62px;
-  object-fit: cover;
-}
-.desktop-18 {
-  position: relative;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 930px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-dimgray);
-  font-family: var(--font-inter);
 }
