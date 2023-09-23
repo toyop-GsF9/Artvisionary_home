@@ -1,0 +1,47 @@
+.top-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 930px;
+}
+.heroimage3 {
+  position: absolute;
+  top: 51px;
+  left: 59px;
+  width: 828px;
+  height: 828px;
+  object-fit: cover;
+}
+.text {
+  margin: 0;
+}
+.message {
+  position: absolute;
+  top: 750px;
+  left: 262px;
+  display: inline-block;
+  width: 916px;
+  height: 34.88px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo {
+  position: absolute;
+  top: 161px;
+  left: 353px;
+  width: 734px;
+  height: 201px;
+  object-fit: cover;
+}
+.top {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 930px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-noto-sans-jp);
+}
